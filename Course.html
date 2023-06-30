@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:ital,wght@0,100;0,300;0,500;0,600;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="About.html"><img src="/LOGO.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-reply-all" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/Index.html">Home</a></li>
+                    <li><a href="#">Admission</a>
+                    </li>
+                    <li><a href="/Course.html" target="_blank">Course</a></li>
+                    <li><a href="/Achievements.html" target="_blank">Achievements</a></li>
+                    <li><a href="/About.html" target="_blank">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-paper-plane" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-- ------------------our courses------------------- -->
+    <section class="course">
+        <h1>Three Phase Of Vijay Institute</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem impedit repudiandae expedita provident,
+            adipisci asperiores, consectetur recusandae at laudantium ea sed doloremque perspiciatis quo eaque illum.
+        </p>
+        <div class="rows">
+            <div class="course-col">
+                <h3>Planning</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis temporibus aut nulla impedit commodi
+                    perspiciatis, molestias fugit, debitis ut sunt cumque doloribus dolorem, pariatur vel libero? Non
+                    sit voluptatem cum neque nobis id eligendi.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Support</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis temporibus aut nulla impedit commodi
+                    perspiciatis, molestias fugit, debitis ut sunt cumque doloribus dolorem, pariatur vel libero? Non
+                    sit voluptatem cum neque nobis id eligendi.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Execution</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis temporibus aut nulla impedit commodi
+                    perspiciatis, molestias fugit, debitis ut sunt cumque doloribus dolorem, pariatur vel libero? Non
+                    sit voluptatem cum neque nobis id eligendi.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- -------------------facilities---------------------------- -->
+    <section class="campus">
+        <h1>Our Junior Classes Students</h1>
+        <p>Lorem ipsum dolor sit amet consec</p>
+        <div class="rows">
+            <div class="campus-col">
+                <img src="/8202589.jpg" alt="">
+                <div class="layer">
+                    <h3>Class 7th</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/front-view-stacked-books-graduation-cap-open-book-education-day.jpg" alt="">
+                <div class="layer">
+                    <h3>Class 8th</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/334.jpg" alt="">
+                <div class="layer">
+                    <h3>Class 9th</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Higher Classes Students</h1>
+        <p>Lorem ipsum dolor sit amet consec</p>
+        <div class="rows">
+            <div class="campus-col">
+                <img src="/8202589.jpg" alt="">
+                <div class="layer">
+                    <h3>Class 10th</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/front-view-stacked-books-graduation-cap-open-book-education-day.jpg" alt="">
+                <div class="layer">
+                    <h3>Class 11th</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/334.jpg" alt="">
+                <div class="layer">
+                    <h3>Class 12th</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>“The earlier you start working on something, the earlier you will see results.”</p>
+        <div class="icons">
+            <ul>
+                <li><a href="#"><img src="/facebook-social-media-fb-logo-square.png"></a></li>
+                <li><a href="#"><img src="/GitHub-Mark.png"></a></li>
+                <li><a href="#"><img src="/linkdin.png"></a></li>
+                <li><a href="#"><img src="/imstagram logo.png"></a></li>
+            </ul>
+            <p>Made with &hearts; MastermindRomi</p>
+            <p>Copyright &#169; Claim Disclamer Pvt.Ltd 2022 | Terms Of Service | Privacy Policy | </p>
+        </div>
+    </footer>
+
+    <!-- ------Javascript for toggle menu ----------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+
+</html>
